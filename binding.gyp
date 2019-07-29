@@ -5,6 +5,7 @@
       'include_dirs': [ "<!(node -e \"require('nan')\")" ],
       'sources': [
         'src/binding.cc',
+        'deps/libvorbis/examples/vorbisfile_example.c',
       ],
       'dependencies': [
         'deps/libvorbis/libvorbis.gyp:libvorbis',
